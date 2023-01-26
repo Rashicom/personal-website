@@ -11,41 +11,249 @@
     <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </head>
-<body>
-    <div class="row">
-        <!-- side stycky bar -->
-        <div class="sidestycky col-3">
-            <p>In publishing and graphic design, Lorem ipIn publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.sum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
-            
+<body>      
+      <!-- top navigation bar -->
 
+      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
         </div>
-        <!-- side sticky bar end -->
-        <!-- second contents of main row -->
-        <div class="col-9">
-            <div class="row">
-                <div class="col-6">
-                    <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+      </nav>
+
+      <!-- top navigation bar end here -->
+      <div class="container mt-3">
+
+        <!--side navigation bar  -->
+
+        <div class="row">
+          <div class="col-md-4 bg-light text-center">
+            <div>
+                <img class="rounded-circle" style="height: 200px; width: 200px;" src="profilepic.jpg" alt="">
+            </div>
+            <h2>Rashid</h2>
+            <p>Full Stack Developer <br> Kochi, kerala</p>
+            <a class="btn btn-primary" href="#" role="button">Message</a>
+
+            <hr>
+            <ul class="nav nav-pills flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Skill</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Social media</a>
+              </li>
+            </ul>
+            <hr class="d-sm-none">
+          </div>
+
+          <!-- side navigation bar end here -->
+
+          <!-- main content div (right portion)-->
+
+          <div class="col-md-8">
+            <!-- About section -->
+            <div class="row p-3">
+                <h2>About</h2>
+                <hr>
+                <p>Diligent Accounting Honors student (3.7/4.0 GPA) from Florida State University with proven research and communication skills. Interned at Viva Microfunds where I examined the financial health of ten small businesses to decide on their loan eligibility. Seeking a junior banker position to expand my business acumen.</p>
+                <div class="col-12 col-md-6 list-group">
+                    <li class="list-group-item">Name : Rashid</li>
+                    <li class="list-group-item">City : Malappuram</li>
+                    <li class="list-group-item">Designation : Student</li>
+                    
                 </div>
-                <div class="col-6">
-                    <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                <div class="col-12 col-md-6 list-group">
+                    <li class="list-group-item">Degree : Graduation</li>
+                    <li class="list-group-item">Contact : 9846142484</li>
+                    <li class="list-group-item">Linked in: rashi</li>
+
+                </div>
+
+            </div>
+            <!-- About Section ebd here-->
+
+
+            <!-- skill section -->
+
+            <div class="row p-3 pt-5">
+                <h2>Skill</h2>
+                <hr>
+                <p>Fullstack developer with one year experience in disighning, developing and maintaining web applications. proficient in multiple programming languages including javascript,python,and ruby.</p>
+                <div class="col-md-6 pt-3">
+                    <span class="skill">HTML<i class="val">100%</i></span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <hr>
+                    <span class="skill">CSS<i class="val">100%</i></span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <hr>
+                    <span class="skill">BOOTSTRAP<i class="val">100%</i></span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 mt-3">
+                    <span class="skill">JAVASCRIPT<i class="val">100%</i></span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <hr>
+                    <span class="skill">PYTHON<i class="val">100%</i></span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <hr>
+                    <span class="skill">RUBY<i class="val">100%</i></span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    
                 </div>
             </div>
-            <div class="row">
-                <div class="col-4">
-                    <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
-                </div>
-                <div class="col-4">
-                    <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
-                </div>
-                <div class="col-4">
-                    <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
-                </div>
 
+            <!-- Skill section end here -->
+
+            <!-- resume section -->
+
+            <div class="row p-3 pt-5">
+                <h3>Resume</h3>
+                <hr><br>
+                <!-- resume left tiles -->
+                <div class="col-md-6">
+                    <h4>Summary</h4>
+                    <hr> 
+                    <div class="resume-box">
+                        <h5>Rashid</h5>
+                        <p>Innovative and deadline-driven Full stack developer with one year of experience designing and developing Industrial-centered materials from initial concept to final, polished deliverable.</p>
+                        <ul class="text-secondary">
+                         <li>Kochi, Kerala</li>
+                         <li>91 9846142484</li>
+                         <li>Rashid@gmail.com</li>
+                        </ul>   
+                    </div><br>
+                    <h4>Education</h4>
+                    <hr>
+                    <div class="resume-box">
+                        <h5>Graduation in physics</h5>
+                        <h6>2016-2019</h6>
+                        <p>Graduated in physics from H M collage of science and technology located in manjeri,malappuram, kerala.</p><br>
+                        <h5>Internship in cosmology</h5>
+                        <h6>2020</h6>
+                        <p>Compleated internship in cosmology and spectroscopy from cusat, kochin, kerala</p>
+                    </div><br>
+                    
+                </div>
+                <!-- resume left tiles end here -->
+                <!-- resume right tile -->
+                <div class="col-md-6">
+                    <h4>Objecive</h4>
+                    <hr>
+                    <div class="resume-box">
+                        <h5>SM at vodavafon</h5>
+                        <p>worked in vodafone india as a custumer relation exicutive for 3 months, and got a promotion as a store manager.</p>   
+                        <ul class="text-secondary">
+                         <li>Seeking a position as a fullstack developer</li>
+                         <li>Seeking a position that utilizes my skills coding</li>
+                         <li>Seaking a position that improve my skills</li>
+                        </ul>   
+                    </div><br>
+                    <h4>Professional Experience</h4>
+                    <hr>
+                    <div class="resume-box">
+                        <h5>SM at vodavafon</h5>
+                        <h6>2016</h6>
+                        <p>worked in vodafone india as a custumer relation exicutive for 3 months, and got a promotion as a store manager.</p><br>
+                        <h5>sales exicutive</h5>
+                        <h6>2016-2019</h6>
+                        <p>worked as a part time sales exicutive during my collage days in a bags and shoe shope</p>
+                    </div><br>
+                </div>
+                <!-- resume right tiles end here -->
+            </div>
+            <!-- resume section end here -->
+
+            <!-- Validation Form -->
+
+            <div class="row p-3 pt-5">
+                <h3>Validation</h3>
+                <hr><br>
+
+
+                
             </div>
 
-        </div>
+            <!-- Validation form end here -->
 
-    </div>
+            <!-- Contact section -->
+
+            <div class="row p-3 pt-5">
+                <h3>Contact</h3>
+                <hr><br>
+                <div class="col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31439.589755151042!2d76.32353975!3d9.938224949999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b08730474af27ab%3A0xedbd5cfad2082d2f!2sMaradu%2C%20Ernakulam%2C%20Kerala%20682304!5e0!3m2!1sen!2sin!4v1674742957327!5m2!1sen!2sin" width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+                <div class="col-md-6">
+                    <h4>Location</h4>
+                    <p>kochi,kerala</p>
+                    <br>
+                    <hr>
+                    <h4>E mail</h4>
+                    <p>Rashid.kp484@gmail.com</p>
+                    <br>
+                    <hr>
+                    <h4>Contact number</h4>
+                    <p>+91 9846142484</p>
+                </div> 
+            </div>
+
+            <!-- Contact section end here -->
+
+          </div>
+        </div>
+      </div>
+      
+      <div class="mt-5 p-4 bg-dark text-white text-center">
+        <p>Footer</p>
+      </div>
+
+
     
 </body>
 </html>
