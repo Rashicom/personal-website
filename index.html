@@ -15,28 +15,7 @@
 <body>      
       <!-- top navigation bar -->
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+
 
       <!-- top navigation bar end here -->
       <div class="container mt-3">
@@ -50,7 +29,7 @@
             </div>
             <h2>Rashid</h2>
             <p>Full Stack Developer <br> Kochi, kerala</p>
-            <a class="btn btn-primary" href="#" role="button">Message</a>
+            <a class="btn btn-primary" href="#message" role="button">Message</a>
 
             <hr>
             <ul class="nav nav-pills flex-column">
@@ -61,19 +40,22 @@
                 <a class="nav-link" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Skill</a>
+                <a class="nav-link" href="#skill">Skill</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Resume</a>
+                <a class="nav-link" href="#resume">Resume</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#project">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#message">Message</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Social media</a>
+                <a class="nav-link" href="#socialmedia">Social media</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
             <hr class="d-sm-none">
@@ -108,12 +90,12 @@
 
             <!-- skill section -->
 
-            <div class="row p-3 pt-5">
+            <div class="row p-3 pt-5" id="skill">
                 <h2>Skill</h2>
                 <hr>
                 <p>Fullstack developer with one year experience in disighning, developing and maintaining web applications. proficient in multiple programming languages including javascript,python,and ruby.</p>
                 <div class="col-md-6 pt-3">
-                    <span class="skill">HTML<i class="val">100%</i></span>
+                    <span class="skillbar">HTML<i class="val">100%</i></span>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
@@ -152,7 +134,7 @@
 
             <!-- resume section -->
 
-            <div class="row p-3 pt-5">
+            <div class="row p-3 pt-5" id="resume">
                 <h3>Resume</h3>
                 <hr><br>
                 <!-- resume left tiles -->
@@ -209,14 +191,81 @@
             </div>
             <!-- resume section end here -->
 
-            <div class="row p-3 pt-5">
+            <!-- project section tiles -->
+
+            <div class="row p-3 pt-3" id="project">
               <h3>Projects</h3>
               <hr><br>
+              <div class="col-lg-6 pt-3">
+                <div class="card">
+                  <div class="card-body project-tile">
+                    <h5 class="card-title">Flipcart home page</h5>
+                    <i class="fab fa-github fa-2x" style="color: #333333;"></i>
+                    <p class="card-text">flipcart home page developed using html and css without bootstrap and javascript.</p>
+                    <ul>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                    </ul>
+                    <a href="https://github.com/Rashicom/Testflipcart.git" class="btn btn-primary">Click here</a>
+                  </div>
+                </div>
+            
+              </div>
+              <div class="col-lg-6 pt-3">
+                <div class="card">
+                  <div class="card-body project-tile">
+                    <h5 class="card-title">Canadavisa.com home page</h5>
+                    <i class="fab fa-github fa-2x" style="color: #333333;"></i>
+                    <p class="card-text">Canadavisa.com home page developed using html and css without bootstrap and java script.</p>
+                    <ul>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                    </ul>
+                    <a href="https://github.com/Rashicom/canadavisa.git" class="btn btn-primary">Click here</a>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-lg-6 pt-3">
+                <div class="card">
+                  <div class="card-body project-tile">
+                    <h5 class="card-title">Airbus.com home page</h5>
+                    <i class="fab fa-github fa-2x" style="color: #333333;"></i>
+                    <p class="card-text">Airbus home page developed as responsive, also included validation form.</p>
+                    <ul>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>JAVASCRIPT</li>
+                    </ul>
+                    <a href="https://github.com/Rashicom/Airbus-home-page.git" class="btn btn-primary">Click here</a>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-lg-6 pt-3">
+                <div class="card">
+                  <div class="card-body project-tile">
+                    <h5 class="card-title">Personal website</h5>
+                    <i class="fab fa-github fa-2x" style="color: #333333;"></i>
+                    <p class="card-text">A personal website developed as responsive, also included button actions and validation form</p>
+                    <ul>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>JAVASCRIPT</li>
+                    </ul>
+                    <a href="https://github.com/Rashicom/personal-website.git" class="btn btn-primary">Click here</a>
+                  </div>
+                </div>
+
+              </div>
+
             </div>
 
-            <!-- Validation Form -->
+            <!-- project section tiles end here-->
 
-            <div class="row p-3 pt-5">
+            <!--Contact and Validation Form -->
+
+            <div class="row p-3 pt-5" id="message"> 
                 <h3>Message</h3>
                 <hr><br>
                 <div class="row p-3">
@@ -248,11 +297,11 @@
                 
             </div>
 
-            <!-- Validation form end here -->
+            <!-- Contct and Validation form end here -->
 
             <!-- sicial media tab -->
 
-            <div class="row p-3 pt-5">
+            <div class="row p-3 pt-5" id="socialmedia">
               <h3>Social media</h3>
               <hr><br>
               <div class="row p-3">
@@ -309,7 +358,7 @@
 
             <!-- Contact section -->
 
-            <div class="row p-3 pt-5">
+            <div class="row p-3 pt-5" id="contact">
                 <h3>Contact</h3>
                 <hr><br><br>
                 <div class="col-md-6">
@@ -335,10 +384,51 @@
           </div>
         </div>
       </div>
-      
-      <div class="mt-5 p-4 bg-dark text-white text-center">
-        <p>Footer</p>
+      <!-- footer section -->
+      <div class="mt-5 p-4 bg-dark text-white">
+        <div class="row">
+          <div class="col-sm-4 text-center">
+            <h4>Rashid kp</h4>
+            <p>Fullstack developer</p>
+          </div>
+          <div class="col-sm-4" id="center-footer">
+            <ul>
+              <li>
+                <a href="">About</a>
+              </li>
+              <li>
+                <a href="">Skill</a>
+              </li>
+              <li>
+                <a href="#resume">Resume</a>
+              </li>
+              <li>
+                <a href="#project">Projects</a>
+              </li>
+              <li>
+                <a href="#message">message</a>
+              </li>
+              <li>
+                <a href="#contact">contact</a>
+              </li>
+            </ul>
+
+          </div>
+          <div class="col-sm-4 text-center">
+            <p>follow me on </p>
+            <div id="right-footer">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-github"></i>
+              <i class="fab fa-stack-overflow"></i>
+              <i class="fab fa-linkedin-in"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-google"></i>
+            </div> 
+          </div>
+        </div>
       </div>
+      <!-- footer section end here   -->
+      
 
 
     

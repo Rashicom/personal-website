@@ -1,4 +1,4 @@
-.skill{
+.skillbar{
     display: flex;
     justify-content: space-between;
 }   
@@ -9,4 +9,30 @@
 .message-btn{
     width: 100%;
     
+}
+.project-tile{
+    min-height: 300px;
+}
+.project-tile a{
+    position: absolute;
+    bottom: 15px;
+}
+#right-footer{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#center-footer ul{
+
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+#center-footer ul li{
+    list-style: none;
+}
+#center-footer ul li a{
+    text-decoration: none;
+    color: white;
 }
