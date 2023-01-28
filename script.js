@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
-    $("#firstname").blur(function(){
-        var firstname=$(this).val()
-        console.log(firstname)
-    })
+    // $("#formsubmitbtn").click(function(){
+    //     var firstname=$("#firstname").val()
+    //     console.log("firstname")
+    // })
     
     $("#messageform").validate({
         rules:{
