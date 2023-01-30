@@ -1,9 +1,22 @@
 $(document).ready(function(){
 
-    // $("#formsubmitbtn").click(function(){
-    //     var firstname=$("#firstname").val()
-    //     console.log("firstname")
-    // })
+    $("#formsubmitbtn").click(function(){
+
+        var firstname=$("#firstname").val()
+        var lastname=$("#lastname").val()
+        var mail=$("#email").val()
+        var contactnumber=$("#contactnumber").val()
+        var usermessage=$("#usermessage").val()
+
+        // display on consol
+
+        console.log("first name : "+firstname)
+        console.log("lastname : "+lastname)
+        console.log("E mail id : "+mail)
+        console.log("contact number :"+contactnumber)
+        console.log("message : "+usermessage)
+        
+    })
     
     $("#messageform").validate({
         rules:{
