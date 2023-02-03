@@ -25,12 +25,14 @@
 #center-footer ul{
 
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
     
 
 }
 #center-footer ul li{
     list-style: none;
+    padding: 10px;
 }
 #center-footer ul li a{
     text-decoration: none;

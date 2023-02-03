@@ -20,7 +20,7 @@ $(document).ready(function(){
     
     $("#messageform").validate({
         rules:{
-            firstname:{
+            name:{
                 required:true,
                 minlength:2
             },
@@ -32,7 +32,7 @@ $(document).ready(function(){
                 required:true,
                 email:true
             },
-            contactnumber:{
+            contact:{
                 required:true,
                 minlength:10
             },
